@@ -3,6 +3,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+
+// And google details
 $secret = 'sxtkxtktk26d6HHXHxt2h667sxs20x62';
 $site_key = 'dxshtxdthnnxfbn6x64gnxgnYJDazrfgxbh';
 
