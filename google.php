@@ -3,9 +3,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Add Google Details Here
-$secret = '';
-$site_key = '';
+$secret = 'sxtkxtktk26d6HHXHxt2h667sxs20x62';
+$site_key = 'dxshtxdthnnxfbn6x64gnxgnYJDazrfgxbh';
 
 function verifyRecaptcha($secret, $response) {
     $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -100,3 +99,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     setInterval(verifyUser, 120000);
 </script>
 </body>
+</html>
